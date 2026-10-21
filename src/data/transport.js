@@ -32,8 +32,8 @@ export const routeSchedules = {
   'Ibarra-El Quinche': ibarraToQuinche,
   'Ibarra-Otavalo': withRouteMetadata(ibarraToQuinche, 'Ibarra → Otavalo', 'Servicio Ibarra–El Quinche, vía Otavalo y Cayambe. Salidas desde Ibarra.'),
   'Ibarra-Cayambe': withRouteMetadata(ibarraToQuinche, 'Ibarra → Cayambe', 'Servicio Ibarra–El Quinche, vía Otavalo y Cayambe. Salidas desde Ibarra.'),
-  'Otavalo-Cayambe': { name: 'Otavalo → Cayambe', note: 'Frecuencia cada 10 minutos.', groups: [{ label: 'Todos los días · 05:00–19:30', times: everyTenMinutes(5, 19.5) }] },
-  'Cayambe-Otavalo': { name: 'Cayambe → Otavalo', note: 'Frecuencia cada 10 minutos.', groups: [{ label: 'Todos los días · 05:00–20:30', times: everyTenMinutes(5, 20.5) }] },
+  'Otavalo-Cayambe': { mode: 'frequency', name: 'Otavalo → Cayambe', note: 'Frecuencia cada 10 minutos.', groups: [{ label: 'Todos los días · 05:00–19:30', times: everyTenMinutes(5, 19.5) }] },
+  'Cayambe-Otavalo': { mode: 'frequency', name: 'Cayambe → Otavalo', note: 'Frecuencia cada 10 minutos.', groups: [{ label: 'Todos los días · 05:00–20:30', times: everyTenMinutes(5, 20.5) }] },
   'El Quinche-Ibarra': quincheToIbarra,
   'El Quinche-Cayambe': withRouteMetadata(quincheToIbarra, 'El Quinche → Cayambe', 'Servicio El Quinche–Ibarra, vía Cayambe y Otavalo. Salidas desde El Quinche.'),
   'El Quinche-Otavalo': withRouteMetadata(quincheToIbarra, 'El Quinche → Otavalo', 'Servicio El Quinche–Ibarra, vía Cayambe y Otavalo. Salidas desde El Quinche.')

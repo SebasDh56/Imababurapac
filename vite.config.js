@@ -11,7 +11,8 @@ export default defineConfig({
         rutas: 'rutas.html',
         servicios: 'servicios.html',
         consulta: 'consulta.html',
-        contacto: 'contacto.html'
+        contacto: 'contacto.html',
+        terminales: 'terminales.html'
       }
     }
   }
