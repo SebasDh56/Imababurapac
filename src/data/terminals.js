@@ -1,7 +1,7 @@
-import routeMapImage from '../assets/images/home.png';
-import nightBusImage from '../assets/images/Autobús Imbaburapac bajo luces nocturnas.png';
-import ibarraPlatformImage from '../assets/images/andenIbarra.jpg';
-import quinchePlatformImage from '../assets/images/andenQuinche.png';
+import routeMapImage from '../assets/images/home.webp';
+import nightBusImage from '../assets/images/Autobús Imbaburapac bajo luces nocturnas.webp';
+import ibarraPlatformImage from '../assets/images/andenIbarra.webp';
+import quinchePlatformImage from '../assets/images/andenQuinche.webp';
 
 export { routeMapImage };
 
